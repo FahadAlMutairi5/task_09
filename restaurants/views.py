@@ -44,7 +44,7 @@ def signin(request):
 
 def signout(request):
     logout(request)
-    return redirect('restaurant-list')
+    return redirect('signin')
 
 def restaurant_list(request):
     context = {
